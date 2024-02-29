@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TarjetaDePresentación</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Carlos Padilla">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+        
+    </head>
+    <body>
+	<div class="contenedor" id="contenedor">
+		<section class="tarjeta">
+			<div class="slider_banner">
+				<div class="banner" id="banner">
+                                    <img class="slide active" src="img/programming1.jpg" alt="">
+                                    <img class="slide" src="img/desarrolloWeb.jpg" alt="">
+                                    <img class="slide" src="img/desarrolloMovil.jpg" alt="">
+                                    <img class="slide" src="img/workingCode.jpg" alt="">
+				</div>
+
+				<!-- Flechas del Banner -->
+				<a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a>
+				<a href="#" id="banner-next" style="background-color: #2ADECC" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
+			</div>
+
+			<section class="slider_info">
+				<!-- Flechas del Slider -->
+				<a href="#" id="info-prev" class="flecha-info anterior" ><span class="fa fa-chevron-left"></span></a>
+				<a href="#" id="info-next" class="flecha-info siguiente"><span class="fa fa-chevron-right"></span></a>
+
+				<section class="informacion" id="informacion">
+					<article id="info">
+						<div class="slide active">
+							<h1 class="nombre">Carlos Padilla</h1>
+							<p class="trabajo">Estudainte de Desarrollo de Software Multiplataforma</p>
+                                                        <p class="pais"><img src="img/utlLogo2.webp" alt="">UTL</p>
+						</div>
+					
+						<div class="slide">
+							<h2 class="subtitulo">Habilidades</h2>
+							<p class="texto">Desarrollo Web: Uso de bootstrap y html dinámico.
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+
+						<div class="slide">
+							<h2 class="subtitulo">Cualidades</h2>
+							<p class="texto">Nam semper, erat at eleifend pretium, sem nunc aliquam eros, ut ultricies dui felis vel augue. Etiam viverra dolor mauris, nec vehicula libero venenatis eu.
+							<br><br>
+							Aliquam nec tortor magna. Suspendisse condimentum feugiat malesuada. Quisque pretium ac nulla vitae tristique. Vivamus fringilla purus ut viverra porta.</p>
+						</div>
+					</article>
+					<div class="botones" id="botones"> </div>
+				</section>
+
+			</section>
+			<section class="redes-sociales">
+				<a href="#" class="behance"><span class="fa fa-behance"></span></a>
+				<a href="#" class="facebook"><span class="fa fa-facebook"></span></a>
+				<a href="#" class="twitter"><span class="fa fa-twitter"></span></a>
+			</section>
+		</section>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+	<script src="js/scriptInicio.js"></script>
+    </body>
+</html>
